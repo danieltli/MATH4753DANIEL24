@@ -1,0 +1,16 @@
+---
+title: "Lab22024"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+date: "2024-01-29"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# Task 1
