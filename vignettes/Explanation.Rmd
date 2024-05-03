@@ -17,3 +17,33 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(MATH4753DANIEL24)
 ```
+# Introduction
+
+This is a package for MATH 4753!
+
+# First function: mysample
+
+```{r}
+mysample(10, iter = 10, time = 0.5)
+```
+# Second function: myquad
+
+```{r}
+myquad(x = 1:10 )
+```
+
+# Third function: myboot2
+
+```{r}
+x = c(1,1,1,0,0,2)
+myboot2(iter = 10000, x,fun = "mean", alpha = 0.05, cx = 1.5)
+```
+
+# Fourth function: myncurve
+
+```{r}
+
+yncurve(0, 1, 1.96)
+
+```
+
